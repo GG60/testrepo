@@ -1,0 +1,28 @@
+
+- Install Xcode 
+- Install docker 
+- Install Homebrew
+- brew --version
+
+- Install Java
+- brew install java
+
+- install the latest Jenkins LTS version:
+- brew install jenkins-LTS
+
+- Start Jenkins services
+- brew services start jenkins-LTS
+
+- Check if the server was started properly by browsing to http://localhost:8080/
+
+- Unlock Jenkins
+- After the installation, Jenkins is locked until the administrator securely sets it up.
+nano /Users/mac/.jenkins/secrets/initialAdminPassword
+
+- Copy the password from the log file, paste it into the Jenkins login form, and click Continue to log in.
+
+- Install suggested plugins
+- Create a Jenkins User
+- Configure the Jenkins URL. :: http://localhost:8080/
+
+https://phoenixnap.com/kb/install-jenkins-on-mac
